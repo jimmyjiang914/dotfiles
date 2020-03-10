@@ -1,0 +1,12 @@
+[alias]
+        lg = log --decorate --graph --oneline
+[core]
+        pager = less -S
+[include]
+        path = ~/.config/git/user
+[push]
+        default = simple
+[pager]
+        diff = true
+        status = true
+
